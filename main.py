@@ -18,6 +18,8 @@ import asyncio
 from pymongo import MongoClient
 from helper import *
 
+os.system(f'cls & mode 85,20 & title [DISCORD.GG/WRD] - PLAYEDYABTCH')
+
 cluster = MongoClient("your-mongo-link-here") # REPLACE WITH YOUR MONGO LINK
 db = cluster["Expose"]
 collection = db["database"]
